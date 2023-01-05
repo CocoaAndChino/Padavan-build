@@ -91,7 +91,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
         echo "CONFIG_FIRMWARE_INCLUDE_TAILSCALE=y" >> .config #Tailscale
-        echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD-TOOLS=n" >> .config #WIREGUARD-TOOLS
+        echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD-TOOLS=y" >> .config #WIREGUARD-TOOLS
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=n" >> .config #WIREGUARD
         else
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #MENTOHUST
